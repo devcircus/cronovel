@@ -1,0 +1,21 @@
+{
+    "name": "devcircus/cronovel",
+    "description": "Simple Cronofy Wrapper for Laravel 5",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Clayton Stone",
+            "email": "devcircus@outlook.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "guzzlehttp/guzzle": "^6.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "DevCircus\\Cronovel\\": "src"
+        }
+    }
+}
